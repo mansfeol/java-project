@@ -77,6 +77,7 @@ pipeline {
         sh 'git checkout development'
         echo 'Checking Out Master Branch'
         sh 'git checkout master'
+        sh 'git pull git@github.com:mansfeol/java-project.git'
         echo 'Merging Development into Master Branch'
         sh 'git merge development'
         echo 'Pushing to Origin Master'
