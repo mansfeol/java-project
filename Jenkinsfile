@@ -1,4 +1,4 @@
-// Mein Jenkinsfile Server 1 reboot
+// Mein Jenkinsfile 
 pipeline {
   agent none 
 
