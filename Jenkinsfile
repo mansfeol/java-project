@@ -1,4 +1,4 @@
-// Mein Jenkinsfile 
+// Mein Jenkinsfile neu 
 pipeline {
   agent none 
 
